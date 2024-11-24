@@ -1,0 +1,56 @@
+########## Basic Bash   #######
+
+#echo
+Display text as a argument 
+
+$echo Hello // output:Hello
+#vim
+Text editor
+$ vim text.txt
+Hello world
+
+#cat 
+Print content inside file 
+$cat text.txt //output:Hello world
+
+#bash script
+$ vim shelltest.sh
+
+#!/bin/bash
+echo Hello world
+
+$bash stelltest.sh // utput:Hello world
+$./shelltest.sh
+
+#varible 
+#!/bin/bash
+first_name=firat
+echo Hello $first_name
+
+#inpur
+#!/bin/bash
+echo what is your name 
+read first_name
+echo hello $firstname 
+$./shelltest.sh
+
+#posison argument
+#!/bin/bash
+Echo hello $1 $2
+$./shelltest.sh Firat Yalin
+
+#piping 
+
+
+
+
+
+
+
+
+
+#
+
+
+
+#
